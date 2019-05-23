@@ -1,0 +1,30 @@
+{
+	"broshes": [
+		{
+			"code": "pero",
+			"name": "Сочное перо",
+			"price": "1200",
+			"description": "Перо как символ легкости и воплощение божественного покровительства.",
+			"size": "9*4 см",
+			"big_photo": "broshes/pero/pero_big.JPG",
+			"small_photos": [
+				"broshes/pero/pero_small_1.jpeg",
+				"img/broshes/pero/pero_small_2.jpeg",
+				"img/broshes/pero/pero_small_3.jpeg"
+			]
+		},
+		{
+			"code": "bird",
+			"name": "Райская птица",
+			"price": "1200",
+			"description": "Птичку вызывали? Когда хочется лёгкости или нежности - вас может схватить и унести вот такая птица. Птица счастья послезавтрашнего дня.",
+			"size": "8*6 см, кисть - 6 см (регулируется), с бусинками - 8 см.",
+			"big_photo": "broshes/bird/bird_big.JPG",
+			"small_photos": [
+				"img/broshes/bird/bird_small_1.jpeg",
+				"img/broshes/bird/bird_small_2.jpeg",
+				"img/broshes/bird/bird_small_3.jpeg"
+			]
+		}
+	]
+}
