@@ -6,8 +6,9 @@ import 'firebase/firestore'
 import App from './App.vue'
 
 import Home from './components/Home.vue'
-import BroshesList from './components/BroshesList.vue'
-import BroshItem from './components/BroshItem.vue'
+import ItemsList from './components/ItemsList.vue'
+import Item from './components/Item.vue'
+
 
 Vue.use(VueRouter)
 Vue.use(firestorePlugin)
@@ -30,15 +31,13 @@ const router = new VueRouter({
 			component: Home,
 		},
 		{
-			path: '/broshes',
-			component: BroshesList,
-			children: [
-				{
-					path: ':code',
-					name: 'brosh',
-					component: BroshItem
-				}
-			]
+			path: '/items',
+			component: ItemsList
+		},
+		{
+			path: '/item/:code',
+			name: 'item',
+			component: Item
 		}
 	]
 });
